@@ -4,9 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarthakdesai77/create-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sarthakdesai77/create-server/issues"
+  },
+  "homepage": "https://github.com/Sarthakdesai77/create-server#readme"
 }
